@@ -1,0 +1,14 @@
+{
+    "title": "Contact",
+    "congratulations": "Congratulations on making it this far! It seems like you are worthy to work with us.",
+    "name": "Name",
+    "email": "Mail",
+    "phone": "Phone",
+    "position": "Position",
+    "intro": "Tell us a few words about your stack and yourself...",
+    "submit": "Submit",
+    "thanks": "Thank you for submitting! Hit space or reload to play again.",
+    "playAgain": "Play again",
+    "tryAgain": "Please check input fields and try again.",
+    "somethingWentWrong": "Something went wrong!"
+}

@@ -1,0 +1,18 @@
+@import 'colors';
+@import 'variables';
+
+.footer {
+    display: inline-flex;
+    font-style: normal;
+    font-size: $footerFontSize;
+    margin-left: 5px;
+    height: calc(max($footerFontSize * 2, 20px));
+    vertical-align: middle;
+    align-items: center;
+}
+
+.footer Image {
+    align-items: bottom;
+    height: $footerFontSize;
+    cursor: pointer;
+}

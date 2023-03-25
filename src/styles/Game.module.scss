@@ -1,0 +1,22 @@
+@import 'colors';
+@import 'variables';
+
+.wrapper {
+  border: $gameBorderSize solid black;
+  width: 100vw;
+  height: calc(100vh - $navbarHeight - $footerFontSize - $gameBorderSize * 2 - 2vh);
+  position: absolute;
+  top: calc(50% + $navbarHeight / 2 - $footerFontSize / 2 - $gameBorderSize - 1vh);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: 'C64-Pro';
+  src: url('../utils/fonts/C64_Pro-STYLE.ttf');
+}
+
+
+:export {
+  menuHeight: $navbarHeight
+}

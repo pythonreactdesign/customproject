@@ -1,0 +1,23 @@
+{
+    "title": "We are looking for",
+    "titleFull": "Full stack",
+    "titleFront": "Front end",
+    "titleBack": "Back end",
+    "titleMobile": "Mobile app",
+    "titleDev": "developers",
+    "start": "Press SPACE to start",
+    "button": "Start",
+    "textScroll": "Our Company Is Need You !",
+    "textArrow": "Use arrow keys and space",
+    "ammo": "Ammo",
+    "shield": "Shield",
+    "score": "Score",
+    "levels": "Level",
+    "gameLevel1": "Our Company Apps was founded in 2017 by the owner, who is an enthusianist developer. Our team has been growing ever since, and now we are delivering end-to-end web and mobile app solutions to our international startup and corporate clients.",
+    "gameLevel2": "We were working in different industries in video streaming, e-health and biotech software development, fintech and banking mobile applications, and many more… During our years of operation we’ve collected several awards.",
+    "gameLevel3": "Our main technologies are React, Node.js, Next.js and we are using React Native for mobile. Sometimes Python, Java and PHP also occures on our backends… Now we are working as a team of many devs and managers looking for new challanges.",
+    "textNextLevel": "NEXT LEVEL",
+    "textNextLevel0": "Come and work with us ",
+    "textNextLevel1": "at"
+}
+

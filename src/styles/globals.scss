@@ -1,0 +1,110 @@
+@import "about.scss";
+@import "colors";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background: white;
+  font-family: "C64-Pro";
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-container {
+  flex: 1;
+}
+
+button.primary {
+  background: $purpleGradient;
+  color: $aqua;
+  border: none;
+  padding: 15px;
+  min-width: 10vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: calc(1vw + 1vh);
+  margin: 4px 2px;
+  font-family: inherit;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:disabled {
+    background: lightgrey;
+    color: black;
+    cursor: default;
+  }
+}
+
+div.primary {
+  font-weight: 400;
+  color: $darkGrey;
+}
+
+input {
+  font-family: inherit;
+  max-width: 100%;
+  border: none;
+  color: $darkGrey;
+  border-bottom: 5px solid $darkGrey;
+  &:focus {
+    outline: none;
+    color: $aqua;
+  }
+  &:focus::placeholder {
+    color: $aqua;
+  }
+}
+
+textarea {
+  font-family: inherit;
+  width: 100%;
+  padding: 16px;
+  color: $darkGrey;
+  border-width: 5px;
+  border-color: $darkGrey;
+  min-height: 130px;
+  &:focus {
+    outline: none;
+    color: $aqua;
+  }
+  &:focus::placeholder {
+    color: $aqua;
+  }
+}
+
+div.primary,
+input,
+textarea {
+  font-size: calc(5px + 0.8vw + 0.6vh);
+  line-height: calc(5px + 0.8vw + 0.6vh);
+}
+
+@font-face {
+  font-family: "C64-Pro";
+  src: url("../utils/fonts/C64_Pro-STYLE.ttf");
+}

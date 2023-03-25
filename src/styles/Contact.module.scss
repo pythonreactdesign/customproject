@@ -1,0 +1,43 @@
+@import "variables";
+
+.container {
+  position: absolute;
+  margin: $navbarHeight 0 calc($footerFontSize + 2.1vh) 0;
+  padding: 16px;
+  text-align: center;
+  color: white;
+  img {
+    margin-bottom: -20px;
+  }
+  background: url("../../public/cBackground.png");
+  background-size: contain;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.form div {
+  text-align: center;
+  margin: 28px 0;
+}
+
+.submittedContainer {
+  margin-top: 80px;
+  div {
+    margin-top: 24px;
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .form div {
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .form div {
+    margin: 16px 0;
+  }
+}

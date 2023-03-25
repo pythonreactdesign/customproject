@@ -1,0 +1,27 @@
+@import "colors";
+
+.Modal {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  -webkit-transition: 0.5s;
+  overflow: auto;
+  transition: all 0.3s linear;
+}
+
+.ModalContent {
+  background-color: $modalBackgroundColor;
+  margin: auto;
+  padding: 2vw 2vh;
+  border-radius: 4px;
+  max-width: 90%;
+  min-height: 20vh;
+  font-size: calc(1vw + 1vh);
+  color: $modalTextColor;
+  text-align: center;
+}
